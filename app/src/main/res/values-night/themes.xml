@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="fontFamily">@font/solaimanlipi</item>
+        <item name="android:fontFamily">@font/solaimanlipi</item>
+    </style>
+
+    <style name="AppTheme" parent="Base.AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>
